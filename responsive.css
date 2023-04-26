@@ -1,0 +1,36 @@
+@media screen and (max-width: 767px) {
+    .main-header {
+       
+    }
+    .navigation {
+        flex-direction: column;
+        min-width: 100%;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 1s;
+    }
+    .navigation.open {
+        max-height: 50vh;
+    }
+    .navigation a {
+        display: block;
+        min-width: 100%;
+    }
+    .logo {
+        display: block;
+        /* margin: auto; */
+    }
+    .banner {
+        min-height: 30vh;
+    }
+    .banner-text h1 {
+        font-size: 2em;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        margin: 2rem 0.5rem;
+    }
+    .nav-button {
+        display: block;
+    }
+}
