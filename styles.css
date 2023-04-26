@@ -191,3 +191,12 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+.Everestimg{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+}
